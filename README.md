@@ -99,5 +99,9 @@ https://drive.google.com/drive/folders/1FqWpalCvSCgj7F6KPd--KOGEDCWkqkZF?usp=sha
 Github link - https://github.com/Datta-Lohith/ROS-Simulation-of-TurtleBot3-Burger-using-A-star-algorithm
 
 ## Sample output
-
+- Terminal Output
+![Terminal Output](https://user-images.githubusercontent.com/126642779/230751081-fb148649-d1f8-4195-b064-4961728e8086.png)
+- Simulation Sample Output
+![Simulation Output](https://user-images.githubusercontent.com/126642779/230751090-8f64188e-ae6b-49d7-abda-e144054fa826.png)
+ut
 
