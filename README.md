@@ -5,10 +5,12 @@ Team project by Datta Lohith Gannavarapu and Kasturi Venkata Sai Sri Charan
 
 ## Contents of the zip file
 
+- Terminal Output.png
+- Simulation output.png
+
 ### Part-1 folder
 -------------
 - proj3p2_Datta Lohith_Sai Charan.py
-- Terminal Output.png
 
 ### Part-2 folder
 -------------
@@ -22,7 +24,6 @@ Team project by Datta Lohith Gannavarapu and Kasturi Venkata Sai Sri Charan
     - CmakeLists
     - package.xml
 
-- Simulation output.png
     
 
 ## Prerequisties
