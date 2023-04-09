@@ -96,7 +96,7 @@
 Drive link for videos:-
 https://drive.google.com/drive/folders/1FqWpalCvSCgj7F6KPd--KOGEDCWkqkZF?usp=share_link
 
-Github link - 
+Github link - https://github.com/Datta-Lohith/ROS-Simulation-of-TurtleBot3-Burger-using-A-star-algorithm
 
 ## Sample output
 
