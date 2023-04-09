@@ -3,7 +3,7 @@ Team project by Datta Lohith Gannavarapu and Kasturi Venkata Sai Sri Charan
 
 # ENPM661: Planning for Autonomous Robots
 
-## Contents of the zip file
+## Contents
 
 - Terminal Output.png
 - Simulation output.png
