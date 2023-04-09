@@ -1,0 +1,26 @@
+<launch>
+  <arg name="world_name" default="$(find a_star_turtlebot3)/world/map.world" />
+  <arg name="robot_name" value="burger" />
+  <arg name="init_pose" value="-x 0 -y 0 -z 0" />
+
+  <!-- Launch gazebo -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world_name)" />
+    <arg name="paused" value="false" />
+    <arg name="use_sim_time" value="true" />
+    <arg name="gui" value="true" />
+    <arg name="verbose" value="false" />
+    <arg name="debug" value="false" />
+    <arg name="output" value="screen" />
+  </include>
+
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_burger.urdf.xacro" /> 
+  
+  <node name="path_planning" pkg="a_star_turtlebot3" type="a_star_path_ros.py" output="screen" launch-prefix="bash -c 'sleep 3s &amp;&amp; echo -e &amp;&amp; rosrun a_star_turtlebot3 a_star_path_ros.py'"/>
+  
+  <!-- spawn the turtlebot -->
+  <node name="spawn_turtlebot" pkg="gazebo_ros" type="spawn_model" args="$(arg init_pose) -urdf -param robot_description -model $(arg robot_name)"/>
+</launch>
+
+
+
